@@ -124,7 +124,7 @@ def Unshred(image):
   exposes us to potentially picking up higher harmonics.
   """
 
-  SHRED_DETECT_THRESHOLD = 0.5
+  SHRED_DETECT_THRESHOLD = 0.6
   width, height = image.size
 
   cols = numpy.array(image, numpy.float64)
