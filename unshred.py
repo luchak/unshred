@@ -20,7 +20,8 @@ Quick implementation notes:
 
 Things that that did not work as well:
   - solving the TSP exactly using dynamic programming (very slow)
-  - solving the TSP using NN instead of greedily (didn't really work)
+  - solving the TSP using NN instead of greedily (worked worse with buggy
+    similarities)
   - using normalized column differences instead of correlation (correlation is
     more robust)
   - computing shred width by computing average correlation for interval size
