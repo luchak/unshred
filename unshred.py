@@ -25,7 +25,9 @@ Things that that did not work as well:
   - using normalized column differences instead of correlation (correlation is
     more robust)
   - computing shred width by computing average correlation for interval size
-    (filtered autocorrelation is more robust by far)
+    (filtered autocorrelation was more robust by far when I had buggy
+    correlation calculation; this may no longer be true for fixed correlation
+    calculation)
   - 3-NN refinement for TSP solutions. If your TSP heuristic is returning bad
     results, you're better off fixing it by finding better edge similarity
     measures than by tweaking the TSP.
@@ -35,9 +37,10 @@ Known issues:
     relocated to the center of the frame
   - non-photographic images have all kinds of assorted problems
 
-Possible simple improvements:
+Possible improvements:
   - mutual information for column similarity
   - reward low-frequency regions less
+  - special case solid border detection
 
 contact: matt@mattstanton.com
 """
