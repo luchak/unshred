@@ -1,6 +1,6 @@
-My entry to the Intagram unshredding challenge. With one terrible bug in correlation calculation fixed.
+My entry to the Intagram unshredding challenge. (With one terrible bug in correlation calculation fixed.)
 
 Usage:
   ./unshred.py path/to/imagefile.png
 
-Implementation notes in unshred.py.
+Implementation notes in unshred.py. You'll need numpy and PIL.
