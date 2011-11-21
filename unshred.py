@@ -28,7 +28,7 @@ Things that that did not work as well:
     (filtered autocorrelation was more robust by far when I had buggy
     correlation calculation; this may no longer be true for fixed correlation
     calculation)
-  - 3-NN refinement for TSP solutions. If your TSP heuristic is returning bad
+  - 3-opt refinement for TSP solutions. If your TSP heuristic is returning bad
     results, you're better off fixing it by finding better edge similarity
     measures than by tweaking the TSP.
 
